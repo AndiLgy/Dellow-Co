@@ -1,0 +1,36 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+
+}
+
+.big {
+    font-size: 3rem;
+}
+
+.container2 {
+    color: black;
+}
+
+* {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+@media(max-width : 2200px) {
+    .big {
+        font-size: 4rem;
+    }
+}
+
+@media(max-width : 900px) {
+    .big {
+        font-size: 2rem;
+    }
+}
+
+@media(max-width : 600px) {
+    .big {
+        font-size: 1.5rem;
+    }
+}
